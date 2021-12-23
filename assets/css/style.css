@@ -86,7 +86,20 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+
+
+.benefit-lead, 
+    .benefit-brand 
+        .benefit-cost{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*
+
+    Joined:
+
+.benefit-lead  {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -101,7 +114,21 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+*/
+
+.benefit-lead h3, 
+    .benefit-brand h3, 
+        .benefit-cost h3 
+            {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*
+
+    united code
+
+.benefit-lead h3  {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -116,7 +143,22 @@ p {
     text-align: center;
 }
 
-.benefit-lead img {
+*/
+
+.benefit-lead img,
+    .benefit-brand img,
+        .benefit-cost img
+            {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*
+
+    united code
+
+.benefit-lead img  {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -134,7 +176,25 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+*/
+
+.search-engine-optimization,
+    .online-reputation-management, 
+        .social-media-marketing
+            {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*
+
+    united code   
+
+.search-engine-optimization  {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,6 +221,19 @@ p {
     color: #ffffff;
 }
 
+*/
+
+.search-engine-optimization img,
+    .online-reputation-management img,
+        .social-media-marketing img
+             {
+    max-height: 200px;
+}
+
+/*
+
+    united code
+
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,6 +245,8 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+
+*/
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
